@@ -2,8 +2,11 @@
   @include typeface($typeface);
 
   aside {
-    &.font-description{
+    &.font-description {
       @include font-description;
+    }
+    &.font-styles {
+      @include font-styles;
     }
   }
 }

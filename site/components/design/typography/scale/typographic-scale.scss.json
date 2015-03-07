@@ -1,0 +1,11 @@
+{
+  "typographic_scale": [
+    {
+      "name": "default",
+      "description": "The default font size and line height",
+      "font_size": "100%",
+      "line_height": "1.25",
+      "lem": "1.25em"
+    }
+  ]
+}

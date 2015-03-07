@@ -1,5 +1,7 @@
 html {
   body {
+    @include typographic-scale(default);
+
     section {
       &#typefaces {
         @include typefaces;

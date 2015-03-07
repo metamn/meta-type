@@ -1,0 +1,19 @@
+
+
+// Typographic settings for different text types
+// - this file is generated please do not edit
+
+
+// The text mixin
+@mixin text($variant) {
+  
+  // Body text
+  // - Used for paragraphs and longer text content
+  
+  @if ($variant == 'body-text') {
+    @include font(arial);
+    @include typographic-scale(default);
+    
+  }
+  
+}
