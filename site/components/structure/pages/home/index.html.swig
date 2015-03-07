@@ -2,8 +2,10 @@
 title: Home
 ---
 
+{% extends "../../templates/default.html.swig" %}
 {% block content %}
 
-  {% include '../../elements/sections/specimen/specimen.html.swig' %}
+  {% set fonts = fonts %}
+  {% include '../../elements/sections/typefaces/typefaces.html.swig' %}
 
 {% endblock %}

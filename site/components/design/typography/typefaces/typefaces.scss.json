@@ -3,7 +3,7 @@
     {
       "name": "Arial",
       "description": "The default font",
-      "family": "sans-serif",
+      "font_family": "sans-serif",
       "character_set": "English",
       "styles": [
         {
