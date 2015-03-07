@@ -1,0 +1,9 @@
+@mixin article-typeface($typeface) {
+  @include typeface($typeface);
+
+  aside {
+    &.font-styles {
+      @include font-styles($typeface);
+    }
+  }
+}

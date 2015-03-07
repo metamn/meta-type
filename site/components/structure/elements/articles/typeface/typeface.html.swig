@@ -6,7 +6,5 @@
 
   {% set font = font %}
   {% include '../../asides/font-description/font-description.html.swig' %}
-
-  {% set styles = font.styles %}
   {% include '../../asides/font-styles/font-styles.html.swig' %}
 </article>

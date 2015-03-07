@@ -1,3 +1,5 @@
+
+
 // Typefaces
 // - generated from components/atoms/typography/typefaces.scss.json
 // - please do not edit directly this file
@@ -6,7 +8,99 @@
 // Arial
 // - The default font, sans-serif
 // - character set: English
-// - served from 
+// - served from local server
 // - styles and weights: Light, Light italic, Normal, Normal italic, Bold, 
 
 
+
+
+// Class definitions for all typefaces and their styles
+
+  
+  .arial {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  
+  .arial-light {
+    font-family: 'Arial', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  
+  .arial-light-italic {
+    font-family: 'Arial', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  
+  .arial-normal {
+    font-family: 'Arial', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  
+  .arial-normal-italic {
+    font-family: 'Arial', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  
+  .arial-bold {
+    font-family: 'Arial', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+
+
+
+// The typeface mixin for all typefaces and their styles
+@mixin typeface($variant) {
+
+  
+  @if ($variant == 'arial') {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  
+  @if ($variant == 'arial-light') {
+    font-family: 'Arial', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  
+  @if ($variant == 'arial-light-italic') {
+    font-family: 'Arial', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  
+  @if ($variant == 'arial-normal') {
+    font-family: 'Arial', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  
+  @if ($variant == 'arial-normal-italic') {
+    font-family: 'Arial', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  
+  @if ($variant == 'arial-bold') {
+    font-family: 'Arial', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+
+}
