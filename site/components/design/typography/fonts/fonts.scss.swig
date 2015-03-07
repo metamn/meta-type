@@ -1,6 +1,6 @@
 {% import "../../../../helpers/classname.swig" as c  %}
 
-// Typefaces
+// Typefaces and Fonts
 // - generated from components/atoms/typography/typefaces.scss.json
 // - please do not edit directly this file
 
@@ -16,12 +16,18 @@
 {% endfor %}
 
 
-// Class definitions for all typefaces and their styles
+// Class definitions for all typefaces
 {% for font in fonts %}
   {% set font_name = c.classname(font.name ) %}
   .{{ font_name }} {
     font-family: '{{ font.name }}', {{ font.family }};
   }
+{% endfor %}
+
+
+// Class definitions for all fonts
+{% for font in fonts %}
+  {% set font_name = c.classname(font.name ) %}
   {% for style in font.styles %}
   {% set style_name = c.classname(style.name ) %}
   .{{ font_name }}-{{ style_name }} {
@@ -33,13 +39,21 @@
 {% endfor %}
 
 
-// The typeface mixin for all typefaces and their styles
+// The typeface mixin
 @mixin typeface($variant) {
 {% for font in fonts %}
   {% set font_name = c.classname(font.name ) %}
   @if ($variant == '{{ font_name }}') {
     font-family: '{{ font.name }}', {{ font.family }};
   }
+{% endfor %}
+}
+
+
+// The font mixin
+@mixin font($variant) {
+{% for font in fonts %}
+  {% set font_name = c.classname(font.name ) %}
   {% for style in font.styles %}
   {% set style_name = c.classname(style.name ) %}
   @if ($variant == '{{ font_name }}-{{ style_name }}') {

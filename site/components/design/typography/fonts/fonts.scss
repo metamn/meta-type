@@ -1,12 +1,12 @@
 
 
-// Typefaces
+// Typefaces and Fonts
 // - generated from components/atoms/typography/typefaces.scss.json
 // - please do not edit directly this file
 
 
 // Arial
-// - The default font, sans-serif
+// - The default typeface, sans-serif
 // - character set: English
 // - served from local server
 // - styles and weights: Light, Light italic, Normal, Normal italic, Bold, 
@@ -14,12 +14,18 @@
 
 
 
-// Class definitions for all typefaces and their styles
+// Class definitions for all typefaces
 
   
   .arial {
     font-family: 'Arial', sans-serif;
   }
+
+
+
+// Class definitions for all fonts
+
+  
   
   
   .arial-light {
@@ -59,13 +65,21 @@
 
 
 
-// The typeface mixin for all typefaces and their styles
+// The typeface mixin
 @mixin typeface($variant) {
 
   
   @if ($variant == 'arial') {
     font-family: 'Arial', sans-serif;
   }
+
+}
+
+
+// The font mixin
+@mixin font($variant) {
+
+  
   
   
   @if ($variant == 'arial-light') {

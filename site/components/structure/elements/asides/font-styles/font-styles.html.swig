@@ -2,7 +2,7 @@
 {% set font_name = c.classname(font.name) %}
 
 <aside class="font-styles">
-  <h3>Styles</h3>
+  <h3>Styles (fonts)</h3>
 
   <dl>
     {% for style in font.styles %}
