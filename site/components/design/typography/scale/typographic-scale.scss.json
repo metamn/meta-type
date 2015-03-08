@@ -10,9 +10,15 @@
     {
       "name": "body-text",
       "description": "For long paragraphs and text blocks",
-      "font_size": "100%",
+      "font_size": "1em",
       "line_height": "1.25",
       "max_width": "30em"
+    },
+    {
+      "name": "small-text",
+      "description": "Text smaller with one scale then the default text",
+      "font_size": "0.75em",
+      "line_height": "1.667"
     }
   ]
 }

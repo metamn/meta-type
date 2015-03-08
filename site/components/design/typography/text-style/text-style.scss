@@ -22,11 +22,28 @@
   
   @if ($variant == 'section-title') {
     @include font(arial-normal);
-    @include typographic-scale(default);
+    @include typographic-scale(small-text);
     @include colors(white-on-black);
     @include uppercase(1.2px);
     
     display: inline-block;
+    padding: 0 $lem/4;
+    margin: $lem auto;
+    
+  }
+  
+  // Section subtitle
+  // - Section delimiter inside a section. Usually contains just a single or a couple of words
+  
+  @if ($variant == 'section-subtitle') {
+    @include font(arial-normal);
+    @include typographic-scale(small-text);
+    @include colors(white-on-gray);
+    @include uppercase(1.2px);
+    
+    display: inline-block;
+    padding: 0 $lem/4;
+    margin: $lem auto;
     
   }
   

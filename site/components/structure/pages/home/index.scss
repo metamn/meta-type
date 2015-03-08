@@ -1,6 +1,7 @@
 html {
   body {
     @include typographic-scale(default);
+    padding: 0 $lem $lem;
 
     section {
 
@@ -11,6 +12,11 @@ html {
 
       article {
 
+        aside {
+          > h3 {
+            @include text-style(section-subtitle);
+          }
+        }
       }
 
 

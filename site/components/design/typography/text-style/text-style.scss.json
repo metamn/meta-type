@@ -26,7 +26,7 @@
         },
         {
           "name": "typographic-scale",
-          "value": "default"
+          "value": "small-text"
         },
         {
           "name": "colors",
@@ -41,6 +41,51 @@
         {
           "name": "display",
           "value": "inline-block"
+        },
+        {
+          "name": "padding",
+          "value": "0 $lem/4"
+        },
+        {
+          "name": "margin",
+          "value": "$lem auto"
+        }
+      ]
+    },
+    {
+      "name": "Section subtitle",
+      "description": "Section delimiter inside a section. Usually contains just a single or a couple of words",
+      "based_on": "Arial",
+      "mixins": [
+        {
+          "name": "font",
+          "value": "arial-normal"
+        },
+        {
+          "name": "typographic-scale",
+          "value": "small-text"
+        },
+        {
+          "name": "colors",
+          "value": "white-on-gray"
+        },
+        {
+          "name": "uppercase",
+          "value": "1.2px"
+        }
+      ],
+      "properties": [
+        {
+          "name": "display",
+          "value": "inline-block"
+        },
+        {
+          "name": "padding",
+          "value": "0 $lem/4"
+        },
+        {
+          "name": "margin",
+          "value": "$lem auto"
         }
       ]
     }

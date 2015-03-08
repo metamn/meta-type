@@ -36,6 +36,11 @@
       "name": "black-on-lightgray",
       "color": "$black",
       "background": "$lightgray"
+    },
+    {
+      "name": "white-on-gray",
+      "color": "$white",
+      "background": "$gray"
     }
   ]
 }

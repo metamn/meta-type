@@ -7,6 +7,15 @@
 {% set default_scale = typographic_scale | first %}
 $lem: {{ default_scale.lem }};
 
+// Reset all block text elements to default font size and line height
+h1, h2, h3, h4, h5, h6, p, ul, li, dt, dl {
+  font-size: {{ default_scale.font_size }};
+  line-height: {{ default_scale.line_height }};
+  margin: 0;
+  padding: 0;
+}
+
+
 
 // Different typographic scales
 @mixin typographic-scale($variant) {

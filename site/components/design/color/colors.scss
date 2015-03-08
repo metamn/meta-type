@@ -34,4 +34,9 @@ $gray: #999;
     color: $black;
   }
 
+  @if $name == white-on-gray {
+    background: $gray;
+    color: $white;
+  }
+
 }
