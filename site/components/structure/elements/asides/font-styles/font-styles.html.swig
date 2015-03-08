@@ -8,8 +8,8 @@
     {% for style in font.styles %}
       {% set style_name = c.classname(style.name) %}
       <dt class="{{font_name}}-{{ style_name }}">{{ style.name }}</dt>
-      <dd>weight: {{ style.weight }}</dd>
-      <dd>style: {{ style.font_style }}</dd>
+      <dd class="{{font_name}}-{{ style_name }}">weight: {{ style.weight }}</dd>
+      <dd class="{{font_name}}-{{ style_name }}">style: {{ style.font_style }}</dd>
     {% endfor %}
   </dl>
 </aside>

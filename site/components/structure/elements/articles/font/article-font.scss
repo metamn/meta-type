@@ -1,4 +1,4 @@
-@mixin article-typeface($typeface) {
+@mixin article-font($typeface) {
   @include typeface($typeface);
 
   aside {

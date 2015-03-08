@@ -6,6 +6,6 @@ title: Home
 {% block content %}
 
   {% set fonts = fonts %}
-  {% include '../../elements/sections/typefaces/typefaces.html.swig' %}
+  {% include '../../elements/sections/fonts/fonts.html.swig' %}
 
 {% endblock %}

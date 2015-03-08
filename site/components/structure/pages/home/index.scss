@@ -3,8 +3,8 @@ html {
     @include typographic-scale(default);
 
     section {
-      &#typefaces {
-        @include typefaces;
+      &#fonts {
+        @include fonts;
       }
     }
   }
