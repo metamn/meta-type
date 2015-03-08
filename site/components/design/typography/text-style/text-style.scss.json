@@ -4,7 +4,7 @@
       "name": "Body text",
       "description": "Used for paragraphs and longer text content",
       "based_on": "Arial",
-      "properties": [
+      "mixins": [
         {
           "name": "font",
           "value": "arial-normal"
@@ -17,22 +17,30 @@
     },
     {
       "name": "Section title",
-      "description": "Just a couple of words for delimiting sections",
+      "description": "Section delimiters. Usually contains just a single or a couple of words",
       "based_on": "Arial",
-      "properties": [
+      "mixins": [
         {
           "name": "font",
           "value": "arial-normal"
         },
         {
           "name": "typographic-scale",
-          "value": "body-text"
+          "value": "default"
         },
         {
-          "name": "color",
-          "value": "white-on-black",
+          "name": "colors",
+          "value": "white-on-black"
+        },
+        {
           "name": "uppercase",
-          "value": "1.2"
+          "value": "1.2px"
+        }
+      ],
+      "properties": [
+        {
+          "name": "display",
+          "value": "inline-block"
         }
       ]
     }

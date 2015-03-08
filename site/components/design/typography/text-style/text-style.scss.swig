@@ -11,7 +11,9 @@
   // - {{ text.description }}
   {% set classname = c.classname(text.name) %}
   @if ($variant == '{{ classname }}') {
-    {% for property in text.properties %}@include {{ property.name }}({{ property.value }});
+    {% for mixin in text.mixins %}@include {{ mixin.name }}({{ mixin.value }});
+    {% endfor %}
+    {% for property in text.properties %}{{ property.name }}: {{ property.value }};
     {% endfor %}
   }
   {% endfor %}

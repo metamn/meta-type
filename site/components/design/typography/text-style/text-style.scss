@@ -14,6 +14,20 @@
     @include font(arial-normal);
     @include typographic-scale(body-text);
     
+    
+  }
+  
+  // Section title
+  // - Section delimiters. Usually contains just a single or a couple of words
+  
+  @if ($variant == 'section-title') {
+    @include font(arial-normal);
+    @include typographic-scale(default);
+    @include colors(white-on-black);
+    @include uppercase(1.2px);
+    
+    display: inline-block;
+    
   }
   
 }

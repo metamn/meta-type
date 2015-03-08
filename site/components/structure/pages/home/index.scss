@@ -3,6 +3,18 @@ html {
     @include typographic-scale(default);
 
     section {
+
+      // Common settings
+      > h3 {
+        @include text-style(section-title);
+      }
+
+      article {
+
+      }
+
+
+
       &#fonts {
         @include fonts;
       }
