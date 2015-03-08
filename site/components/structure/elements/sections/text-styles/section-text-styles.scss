@@ -1,0 +1,5 @@
+@mixin section-text-styles {
+  article {
+    @include article-text-style;
+  }
+}

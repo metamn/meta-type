@@ -6,6 +6,10 @@ html {
       &#fonts {
         @include fonts;
       }
+
+      &#text-styles {
+        @include section-text-styles;
+      }
     }
   }
 }
