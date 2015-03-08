@@ -11,8 +11,8 @@
   // - Used for paragraphs and longer text content
   
   @if ($variant == 'body-text') {
-    @include font(arial);
-    @include typographic-scale(default);
+    @include font(arial-normal);
+    @include typographic-scale(body-text);
     
   }
   

@@ -15,6 +15,7 @@ $lem: {{ default_scale.lem }};
   @if ($variant == '{{ scale.name }}') {
     font-size: {{ scale.font_size }};
     line-height: {{ scale.line_height }};
+  {% if scale.max_width %}max-width: {{ scale.max_width }};{% endif %}
   }
 {% endfor %}
 }

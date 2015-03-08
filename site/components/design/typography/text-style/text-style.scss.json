@@ -7,11 +7,32 @@
       "properties": [
         {
           "name": "font",
-          "value": "arial"
+          "value": "arial-normal"
         },
         {
           "name": "typographic-scale",
-          "value": "default"
+          "value": "body-text"
+        }
+      ]
+    },
+    {
+      "name": "Section title",
+      "description": "Just a couple of words for delimiting sections",
+      "based_on": "Arial",
+      "properties": [
+        {
+          "name": "font",
+          "value": "arial-normal"
+        },
+        {
+          "name": "typographic-scale",
+          "value": "body-text"
+        },
+        {
+          "name": "color",
+          "value": "white-on-black",
+          "name": "uppercase",
+          "value": "1.2"
         }
       ]
     }

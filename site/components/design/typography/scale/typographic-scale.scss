@@ -15,6 +15,14 @@ $lem: 1.25em;
   @if ($variant == 'default') {
     font-size: 100%;
     line-height: 1.25;
+  
+  }
+
+  // For long paragraphs and text blocks
+  @if ($variant == 'body-text') {
+    font-size: 100%;
+    line-height: 1.25;
+  max-width: 30em;
   }
 
 }

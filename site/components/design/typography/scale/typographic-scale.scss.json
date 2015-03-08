@@ -6,6 +6,13 @@
       "font_size": "100%",
       "line_height": "1.25",
       "lem": "1.25em"
+    },
+    {
+      "name": "body-text",
+      "description": "For long paragraphs and text blocks",
+      "font_size": "100%",
+      "line_height": "1.25",
+      "max_width": "30em"
     }
   ]
 }
