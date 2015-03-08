@@ -17,6 +17,16 @@
     
   }
   
+  // Article title
+  // - The title of an article, page or something important
+  
+  @if ($variant == 'article-title') {
+    @include font(arial-normal);
+    @include typographic-scale(article-title);
+    
+    
+  }
+  
   // Section title
   // - Section delimiters. Usually contains just a single or a couple of words
   

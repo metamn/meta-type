@@ -19,6 +19,12 @@
       "description": "Text smaller with one scale then the default text",
       "font_size": "0.75em",
       "line_height": "1.667"
+    },
+    {
+      "name": "article-title",
+      "description": "The title of an article",
+      "font_size": "1.333em",
+      "line_height": "1.875"
     }
   ]
 }

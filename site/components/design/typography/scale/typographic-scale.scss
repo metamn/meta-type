@@ -41,4 +41,11 @@ h1, h2, h3, h4, h5, h6, p, ul, li, dt, dl {
   
   }
 
+  // The title of an article
+  @if ($variant == 'article-title') {
+    font-size: 1.333em;
+    line-height: 1.875;
+  
+  }
+
 }

@@ -16,6 +16,21 @@
       ]
     },
     {
+      "name": "Article title",
+      "description": "The title of an article, page or something important",
+      "based_on": "Arial",
+      "mixins": [
+        {
+          "name": "font",
+          "value": "arial-normal"
+        },
+        {
+          "name": "typographic-scale",
+          "value": "article-title"
+        }
+      ]
+    },
+    {
       "name": "Section title",
       "description": "Section delimiters. Usually contains just a single or a couple of words",
       "based_on": "Arial",

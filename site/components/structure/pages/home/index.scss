@@ -11,6 +11,9 @@ html {
       }
 
       article {
+        > h3 {
+          @include text-style(article-title);
+        }
 
         aside {
           > h3 {
