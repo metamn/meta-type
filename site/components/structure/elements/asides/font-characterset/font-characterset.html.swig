@@ -1,19 +1,4 @@
-
-
-
-<article id="">
-  <h3></h3>
-
-  
-  <aside class="font-description">
-  <h3>Font description</h3>
-
-  <p>
-    , , with  character set. Served from .
-  </p>
-</aside>
-
-  <aside class="font-characterset">
+<aside class="font-characterset">
   <h3>Character set</h3>
 
   <!-- Mainly from http://unicode-table.com/en/ -->
@@ -32,16 +17,3 @@
     &#10216;&#8201;&#10217;&#8201;&#10229;&#8201;&#10230;&#8201;
   </p>
 </aside>
-
-  
-
-
-<aside class="font-styles">
-  <h3>Styles (fonts)</h3>
-
-  <dl>
-    
-  </dl>
-</aside>
-
-</article>
