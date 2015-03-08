@@ -3,5 +3,7 @@
     display: none;
   }
 
-  @include text(body-text);
+  p {
+    @include text-style(body-text);
+  }
 }
