@@ -5,6 +5,11 @@
     &.description {
       @include description;
     }
+
+    &.font-characterset {
+      @include font_characterset;
+    }
+    
     &.font-styles {
       @include font-styles;
     }
