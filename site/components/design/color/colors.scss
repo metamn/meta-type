@@ -15,6 +15,9 @@ $lightgray: #f1f1f1;
 // The list border bottom color for the menu
 $gray: #999;
 
+// The list border bottom color for the menu
+$red: #fa0000;
+
 
 // Color combinations. Colors are not used standalone but in pairs
 @mixin colors($name) {
@@ -37,6 +40,16 @@ $gray: #999;
   @if $name == white-on-gray {
     background: $gray;
     color: $white;
+  }
+
+  @if $name == gray-on-white {
+    background: $white;
+    color: $gray;
+  }
+
+  @if $name == red-on-white {
+    background: $white;
+    color: $red;
   }
 
 }

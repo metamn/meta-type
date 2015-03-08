@@ -21,7 +21,7 @@
   // - The title of an article, page or something important
   
   @if ($variant == 'article-title') {
-    @include font(arial-normal);
+    @include font(arial-bold);
     @include typographic-scale(article-title);
     
     
@@ -31,14 +31,13 @@
   // - Section delimiters. Usually contains just a single or a couple of words
   
   @if ($variant == 'section-title') {
-    @include font(arial-normal);
+    @include font(arial-bold);
     @include typographic-scale(small-text);
-    @include colors(white-on-black);
     @include uppercase(1.2px);
+    @include colors(white-on-black);
     
     display: inline-block;
     padding: 0 $lem/4;
-    margin: $lem auto;
     
   }
   
@@ -46,14 +45,11 @@
   // - Section delimiter inside a section. Usually contains just a single or a couple of words
   
   @if ($variant == 'section-subtitle') {
-    @include font(arial-normal);
+    @include font(arial-bold);
     @include typographic-scale(small-text);
-    @include colors(white-on-gray);
     @include uppercase(1.2px);
+    @include colors(gray-on-white);
     
-    display: inline-block;
-    padding: 0 $lem/4;
-    margin: $lem auto;
     
   }
   

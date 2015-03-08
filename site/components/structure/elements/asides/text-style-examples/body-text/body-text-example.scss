@@ -1,8 +1,4 @@
 @mixin body-text-example {
-  > h3 {
-    display: none;
-  }
-
   .text {
     @include text-style(body-text);
   }

@@ -19,6 +19,11 @@
       "name": "gray",
       "value": "#999",
       "description": "The list border bottom color for the menu"
+    },
+    {
+      "name": "red",
+      "value": "#fa0000",
+      "description": "The list border bottom color for the menu"
     }
   ],
   "color_pairs": [
@@ -41,6 +46,16 @@
       "name": "white-on-gray",
       "color": "$white",
       "background": "$gray"
+    },
+    {
+      "name": "gray-on-white",
+      "color": "$gray",
+      "background": "$white"
+    },
+    {
+      "name": "red-on-white",
+      "color": "$red",
+      "background": "$white"
     }
   ]
 }

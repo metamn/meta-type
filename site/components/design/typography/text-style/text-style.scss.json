@@ -22,7 +22,7 @@
       "mixins": [
         {
           "name": "font",
-          "value": "arial-normal"
+          "value": "arial-bold"
         },
         {
           "name": "typographic-scale",
@@ -37,19 +37,19 @@
       "mixins": [
         {
           "name": "font",
-          "value": "arial-normal"
+          "value": "arial-bold"
         },
         {
           "name": "typographic-scale",
           "value": "small-text"
         },
         {
-          "name": "colors",
-          "value": "white-on-black"
-        },
-        {
           "name": "uppercase",
           "value": "1.2px"
+        },
+        {
+          "name": "colors",
+          "value": "white-on-black"
         }
       ],
       "properties": [
@@ -60,10 +60,6 @@
         {
           "name": "padding",
           "value": "0 $lem/4"
-        },
-        {
-          "name": "margin",
-          "value": "$lem auto"
         }
       ]
     },
@@ -74,33 +70,19 @@
       "mixins": [
         {
           "name": "font",
-          "value": "arial-normal"
+          "value": "arial-bold"
         },
         {
           "name": "typographic-scale",
           "value": "small-text"
         },
         {
-          "name": "colors",
-          "value": "white-on-gray"
-        },
-        {
           "name": "uppercase",
           "value": "1.2px"
-        }
-      ],
-      "properties": [
-        {
-          "name": "display",
-          "value": "inline-block"
         },
         {
-          "name": "padding",
-          "value": "0 $lem/4"
-        },
-        {
-          "name": "margin",
-          "value": "$lem auto"
+          "name": "colors",
+          "value": "gray-on-white"
         }
       ]
     }

@@ -1,12 +1,14 @@
 html {
   body {
     @include typographic-scale(default);
-    padding: 0 $lem $lem;
+    @include vertical-rhythm;
+    padding: 0 $lem;
 
     section {
-
       // Common settings
       > h3 {
+        margin-top: $lem * 2;
+        margin-bottom: $lem;
         @include text-style(section-title);
       }
 
