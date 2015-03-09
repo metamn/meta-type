@@ -5,7 +5,7 @@
       "description": "The default typeface",
       "family": "sans-serif",
       "character_set": "English",
-      "served_from": "local server",
+      "served_from": "the local server",
       "styles": [
         {
           "name": "Light",

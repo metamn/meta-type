@@ -6,7 +6,7 @@
 
   <div class="description">
     <p>
-      {{ font.description }}, {{ font.family }}, with {{ font.character_set }} character set. Served from {{ font.served_from }}
+      {{ font.description }}, {{ font.family }}, with {{ font.character_set }} character set. Served from {{ font.served_from }}.
     </p>
   </div>
 
