@@ -1,10 +1,10 @@
 {% import "../../../../../../helpers/classname.swig" as c  %}
 {% set font_name = c.classname(style.name) %}
 
-<aside class="{{ classname }}-example">
+<aside>
   <h3>{{ style.name }} example</h3>
 
-  <div class="text">
+  <div class="{{ classname }} example">
     <p>
       What makes design strong and perfect is uniformity: a few design elements used and reused all over again.
     </p>

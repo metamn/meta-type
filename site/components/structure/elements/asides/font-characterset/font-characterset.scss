@@ -1,8 +1,0 @@
-@mixin font-characterset {
-  p {
-    &:first-of-type {
-      @include typographic-scale(article-title);
-      font-size: 1.77em;
-    }
-  }
-}

@@ -1,9 +1,0 @@
-@mixin description {
-  h3 {
-    display: none;
-  }
-
-  p {
-    @include text-style(body-text);
-  }
-}

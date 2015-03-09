@@ -5,33 +5,47 @@ html {
     padding: 0 $lem;
 
     section {
-      // Common settings
       > h3 {
-        margin-top: $lem * 2;
-        margin-bottom: $lem;
-        @include text-style(section-title);
+        display: none;
       }
 
       article {
-        > h3 {
-          @include text-style(article-title);
+        .description {
+          @include text-style(body-text);
+          margin-bottom: $lem;
         }
+      }
 
-        aside {
-          > h3 {
-            @include text-style(section-subtitle);
+      &#fonts {
+        article {
+          h3 {
+            @include text-style(article-title);
+          }
+
+          .link {
+            margin: $lem 0;
           }
         }
       }
 
-
-
-      &#fonts {
-        @include fonts;
-      }
-
       &#text-styles {
-        @include section-text-styles;
+        article {
+          > h3 {
+            @include text-style(section-title);
+          }
+
+          aside {
+            > h3 {
+              @include text-style(section-subtitle);
+            }
+
+            .example {
+              &.body-text {
+                @include text-style(body-text);
+              }
+            }
+          }
+        }
       }
     }
   }

@@ -4,10 +4,12 @@
 <article id="{{ classname }}">
   <h3>{{ style.name }}</h3>
 
-  {% set style = style %}
-  {% set description = style.description + ". Based on " + style.based_on %}
-  {% include '../../asides/description/description.html.swig' %}
+  <div class="description">
+    <p>
+      {{ style.description }}. Based on {{ style.based_on }}.
+    </p>
+  </div>
 
   {% set example = "../../asides/text-style-examples/" + classname + "/" + classname + "-example.html.swig" %}
-  {% include example %}
+  {% if example %}{% include example %}{% endif %}
 </article>

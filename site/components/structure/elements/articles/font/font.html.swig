@@ -4,9 +4,23 @@
 <article id="{{ classname }}">
   <h3>{{ font.name }}</h3>
 
-  {% set font = font %}
-  {% set description = font.description + ", " + font.family + ", with " + font.character_set + " character set. Served from " + font.served_from %}
-  {% include '../../asides/description/description.html.swig' %}
-  {% include '../../asides/font-characterset/font-characterset.html.swig' %}
-  {% include '../../asides/font-styles/font-styles.html.swig' %}
+  <div class="description">
+    <p>
+      {{ font.description }}, {{ font.family }}, with {{ font.character_set }} character set. Served from {{ font.served_from }}
+    </p>
+  </div>
+
+  <div class="styles">
+    {% for style in font.styles %}
+      {% set style_name = c.classname(style.name) %}
+      <p class="{{ classname }}-{{ style_name }}">
+        The quick brown fox jumps over the lazy dog
+      </p>
+    {% endfor %}
+  </div>
+
+  <p class="link">
+    <a href="{{ site.url }}specimens/{{ classname }}"> View specimen</a>
+  </p>
+
 </article>
